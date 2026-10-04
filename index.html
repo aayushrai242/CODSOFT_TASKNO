@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Student Management System</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>EduManage</h1><p>Student Management System — beginner front-end prototype</p></header>
+<main><section class="card"><h2>Add student</h2><form id="studentForm"><input id="name" placeholder="Student name" required><input id="roll" placeholder="Roll number" required><input id="course" placeholder="Course / branch" required><button>Add student</button></form></section>
+<section class="card"><h2>Student records</h2><input id="search" placeholder="Search by name or roll number"><div class="tablewrap"><table><thead><tr><th>Name</th><th>Roll no.</th><th>Course</th><th>Action</th></tr></thead><tbody id="students"></tbody></table></div><p id="empty">No students added yet.</p></section></main><footer>Demo data stays in this browser tab/session.</footer><script src="script.js"></script></body></html>
